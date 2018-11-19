@@ -1,0 +1,16 @@
+C:\Users\Pichau\eclipse-workspace\project\src\main\java\br\com\webedia\project\resource\ArtigoResource.java
+C:\Users\Pichau\eclipse-workspace\project\src\main\java\br\com\webedia\project\connection\ConnectionFactory.java
+C:\Users\Pichau\eclipse-workspace\project\src\main\java\br\com\webedia\project\model\Artigo.java
+C:\Users\Pichau\eclipse-workspace\project\src\main\java\br\com\webedia\project\model\Comentario.java
+C:\Users\Pichau\eclipse-workspace\project\src\main\java\br\com\webedia\project\resource\ComentarioResource.java
+C:\Users\Pichau\eclipse-workspace\project\src\main\java\br\com\webedia\project\Main.java
+C:\Users\Pichau\eclipse-workspace\project\src\main\java\br\com\webedia\project\model\ListaDeArtigos.java
+C:\Users\Pichau\eclipse-workspace\project\src\main\java\br\com\webedia\project\dao\ComentarioDAO.java
+C:\Users\Pichau\eclipse-workspace\project\src\main\java\br\com\webedia\project\dao\ArtigoDAO.java
+C:\Users\Pichau\eclipse-workspace\project\src\main\java\br\com\webedia\project\model\Autor.java
+C:\Users\Pichau\eclipse-workspace\project\src\main\java\br\com\webedia\project\model\ListaDeAutores.java
+C:\Users\Pichau\eclipse-workspace\project\src\main\java\br\com\webedia\project\dao\AutorDAO.java
+C:\Users\Pichau\eclipse-workspace\project\src\main\java\br\com\webedia\project\resource\AutorResource.java
+C:\Users\Pichau\eclipse-workspace\project\src\main\java\br\com\webedia\project\view\ConsoleView.java
+C:\Users\Pichau\eclipse-workspace\project\src\main\java\br\com\webedia\project\connection\Server.java
+C:\Users\Pichau\eclipse-workspace\project\src\main\java\br\com\webedia\project\model\ListaDeComentarios.java

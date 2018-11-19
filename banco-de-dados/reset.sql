@@ -1,0 +1,35 @@
+BEGIN TRANSACTION;
+DROP TABLE IF EXISTS `comentarios`;
+CREATE TABLE IF NOT EXISTS `comentarios` (
+	`idComentario`	INTEGER PRIMARY KEY AUTOINCREMENT UNIQUE,
+	`usuario`	TEXT NOT NULL,
+	`texto`	TEXT NOT NULL,
+	`idArtigo`	INTEGER NOT NULL,
+	`data`	TEXT,
+	FOREIGN KEY(`idArtigo`) REFERENCES `artigos`(`idArtigo`) ON DELETE CASCADE
+);
+DROP TABLE IF EXISTS `autores`;
+CREATE TABLE IF NOT EXISTS `autores` (
+	`idAutor`	INTEGER PRIMARY KEY AUTOINCREMENT UNIQUE,
+	`nome`	TEXT NOT NULL,
+	`sobrenome`	TEXT NOT NULL,
+	`bio`	TEXT
+);
+DROP TABLE IF EXISTS `artigos`;
+CREATE TABLE IF NOT EXISTS `artigos` (
+	`idArtigo`	INTEGER PRIMARY KEY AUTOINCREMENT UNIQUE,
+	`titulo`	TEXT NOT NULL UNIQUE,
+	`subtitulo`	TEXT NOT NULL,
+	`dataPublicacao`	TEXT NOT NULL,
+	`dataAtualizacao`	TEXT,
+	`conteudo`	TEXT NOT NULL,
+	`permalink`	TEXT NOT NULL UNIQUE
+);
+DROP TABLE IF EXISTS `artigoAutores`;
+CREATE TABLE IF NOT EXISTS `artigoAutores` (
+	`idArtigo`	INTEGER NOT NULL,
+	`idAutor`	INTEGER NOT NULL,
+	FOREIGN KEY(`idAutor`) REFERENCES `autores`(`idAutor`) ON DELETE CASCADE,
+	FOREIGN KEY(`idArtigo`) REFERENCES `artigos`(`idArtigo`) ON DELETE CASCADE
+);
+COMMIT;
