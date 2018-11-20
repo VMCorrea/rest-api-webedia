@@ -15,6 +15,8 @@ Para a documentação do código, foi utilizado a funcionalidade do javadoc. Os 
 O SQLite é um banco de dados muito utilizado para projetos mobile, pois não necessita de servidor, e todas as informações do banco ficam em um único arquivo.
 
 Por motivos de portabilidade e facilidade de instalação, o SQLite foi escolhido para o projeto.
+
+O Dump do banco se encontra na raiz do projeto. Para manipular e visualizar o banco de dados, recomendo o uso do programa [DB Browser for SQLite](https://sqlitebrowser.org/).
 #### Bibliotecas
 O projeto conta com diversas dependências para seu funcionamento, e também para sua produção. As bibliotecas mais relevantes e suas funções são:
 
