@@ -1,6 +1,3 @@
-
-
-
 # API Webedia Backend Challenge
 
 Este projeto é um desafio de programação Back-end dado pela empresa Webedia.
@@ -135,6 +132,7 @@ Requisição do tipo DELETE, que apaga um autor no banco de dados.
     curl --request DELETE --url http://localhost:8080/autores/{id}
 Para deletar, é utilizado o id do autor.
 
+#
 ## 5. Comentários
 Classe que simula o comentário de artigos. Contém os seguintes atributos:
 * ID ( Gerado pelo banco de dados )
@@ -180,3 +178,10 @@ Requisição do tipo PUT, para atualizar um comentário no banco de dados.
 
     curl --request PUT --url http://localhost:8080/comentarios/
 A requisição deve enviar um arquivo JSON com o ID do comentário que será atualizado e com os dados que serão modificados.
+
+#### 5.5 DELETE Request
+Requisição do tipo DELETE, para remover um comentário do banco de dados.
+
+    curl --request DELETE --url http://localhost:8080/comentarios/{id}
+    
+O DELETE deve ser feito utilizando o id do comentário.
