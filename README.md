@@ -2,10 +2,29 @@
 
 Este projeto é um desafio de programação Back-end dado pela empresa Webedia.
 
-Usando um servidor local e um banco de dados portátil, o programa consiste em uma API REST que simula um simples sistema de blog. Executa todas as operações CRUD para objetos do tipo artigo, autores e comentários.
+Usando um servidor local e um banco de dados portátil, o programa consiste em uma API REST que simula um simples sistema de blog. Executa todas as operações CRUD para objetos do tipo artigo, autores e comentários, utilizando os principais métodos HTTP.
 
-## Instalação
+# Documentação
 
+Segue neste documento README.md, o manual de requisições para utilizar esta API.
+
+Para a documentação do código, foi utilizado a funcionalidade do javadoc. Os arquivos referentes a documentação do javadoc se encontram na pasta /doc do projeto.
+
+# Tecnologias
+#### SQLite (DB)
+O SQLite é um banco de dados muito utilizado para projetos mobile, pois não necessita de servidor, e todas as informações do banco ficam em um único arquivo.
+
+Por motivos de portabilidade e facilidade de instalação, o SQLite foi escolhido para o projeto.
+#### Bibliotecas
+O projeto conta com diversas dependências para seu funcionamento, e também para sua produção. As bibliotecas mais relevantes e suas funções são:
+
+* Maven - Gerenciamento de dependências e build.
+* Grizzly NIO - Framework para criação de servidor.
+* Jersey - Framework para criação de web services REST.
+* Gson - Biblioteca para serialização/desserialização de arquivos JSON.
+* JUnit 4 - Biblioteca de testes.
+
+# Instalação
 O projeto não requer nenhuma instalação complexa, basta ter o Java 8 instalado na máquina.
 
 Um zip na raiz do projeto contém todos os arquivos para o funcionamento do programa, e todos devem ser extraídos no mesmo diretório:
@@ -185,3 +204,8 @@ Requisição do tipo DELETE, para remover um comentário do banco de dados.
     curl --request DELETE --url http://localhost:8080/comentarios/{id}
     
 O DELETE deve ser feito utilizando o id do comentário.
+
+##  6. Respostas HTTP
+* Com exceção dos métodos POST, todas as requisições esperam uma resposta HTTP 200.
+* Os métodos POST retornam uma resposta HTTP 201, com o link de acesso para o elemento inserido no banco de dados.
+* Em casa de erros, todos os métodos devolvem uma resposta HTTP 500. 
