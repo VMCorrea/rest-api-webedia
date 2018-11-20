@@ -208,4 +208,4 @@ O DELETE deve ser feito utilizando o id do comentário.
 ##  6. Respostas HTTP
 * Com exceção dos métodos POST, todas as requisições esperam uma resposta HTTP 200.
 * Os métodos POST retornam uma resposta HTTP 201, com o link de acesso para o elemento inserido no banco de dados.
-* Em casa de erros, todos os métodos devolvem uma resposta HTTP 500. 
+* Em caso de erros, todos os métodos devolvem uma resposta HTTP 500. 
