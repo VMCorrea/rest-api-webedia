@@ -2,7 +2,7 @@
 
 Este projeto é um desafio de programação Back-end dado pela empresa Webedia.
 
-Usando um servidor local e um banco de dados portátil, o programa consiste em uma API REST que simula um simples sistema de blog. Executa todas as operações CRUD para objetos do tipo artigo, autores e comentários, utilizando os principais métodos HTTP.
+Usando um servidor local e um banco de dados portátil, o programa consiste em uma API REST que simula um simples sistema de blog. Executa todas as operações CRUD para objetos do tipo artigo, autores e comentários, utilizando os principais métodos HTTP (GET, POST, PUT, DELETE).
 
 # Documentação
 
