@@ -28,7 +28,7 @@ O projeto conta com diversas dependências para seu funcionamento, e também par
 O projeto não requer nenhuma instalação complexa, basta ter o Java 8 instalado na máquina.
 
 Um zip na raiz do projeto contém todos os arquivos para o funcionamento do programa, e todos devem ser extraídos no mesmo diretório:
-* Arquvio JAR executável.
+* Arquivo JAR executável.
 * Pasta /libs que contém todas as dependências do projeto.
 * Pasta /banco-de-dados que contém o banco de dados já configurado e com dados gravados.
 
