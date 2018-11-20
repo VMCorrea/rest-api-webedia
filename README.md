@@ -83,7 +83,7 @@ A inserção deve seguir as seguintes regras para funcionar:
 * Conteúdo não pode ser nulo.
 * Permalink é gerado automaticamente, e não pode ser enviado.
 * O artigo precisa de pelo menos um autor.
-* Todos os autores precisam ter id e devem já exixtir no banco.
+* Todos os autores precisam ter id e devem já existir no banco.
 * Artigos não podem ser criados com comentários.
 
 #### 3.4 PUT Request
