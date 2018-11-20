@@ -1,0 +1,139 @@
+{
+    "pagina": 1,
+    "totalPaginas": 2,
+    "next": "http://localhost:8080/artigos?page=2&size=5",
+    "prev": "",
+    "artigos": [
+        {
+            "idArtigo": 2,
+            "permalink": "programacao-em-java-parte-1",
+            "titulo": "Programação em Java - Parte 1",
+            "subtitulo": "Curso de Java",
+            "dataPublicacao": "2018-11-16 17:28:09",
+            "conteudo": "Conteúdo do artigo",
+            "autores": [
+                {
+                    "idAutor": 1,
+                    "nome": "Victor",
+                    "sobrenome": "Corrêa",
+                    "bio": "Bio Qualquer"
+                }
+            ],
+            "comentarios": [
+                {
+                    "idComentario": 7,
+                    "idArtigo": 2,
+                    "usuario": "pedrojr",
+                    "texto": "Texto do comentário",
+                    "data": "2018-11-16 17:45:31"
+                }
+            ]
+        },
+        {
+            "idArtigo": 3,
+            "permalink": "programacao-em-java-parte-2",
+            "titulo": "Programação em Java - Parte 2",
+            "subtitulo": "Curso de Java",
+            "dataPublicacao": "2018-11-16 17:28:35",
+            "conteudo": "Conteúdo do artigo",
+            "autores": [
+                {
+                    "idAutor": 1,
+                    "nome": "Victor",
+                    "sobrenome": "Corrêa",
+                    "bio": "Bio Qualquer"
+                }
+            ],
+            "comentarios": [
+                {
+                    "idComentario": 1,
+                    "idArtigo": 3,
+                    "usuario": "joaozinho123",
+                    "texto": "Texto do comentário",
+                    "data": "2018-11-16 17:44:02"
+                }
+            ]
+        },
+        {
+            "idArtigo": 4,
+            "permalink": "programacao-em-java-parte-3",
+            "titulo": "Programação em Java - Parte 3",
+            "subtitulo": "Curso de Java",
+            "dataPublicacao": "2018-11-16 17:29:23",
+            "conteudo": "Conteúdo do artigo",
+            "autores": [
+                {
+                    "idAutor": 1,
+                    "nome": "Victor",
+                    "sobrenome": "Corrêa",
+                    "bio": "Bio Qualquer"
+                },
+                {
+                    "idAutor": 5,
+                    "nome": "Marni",
+                    "sobrenome": "Wiley",
+                    "bio": "Bio Qualquer"
+                }
+            ],
+            "comentarios": []
+        },
+        {
+            "idArtigo": 5,
+            "permalink": "html-e-css-do-zero-parte-1",
+            "titulo": "HTML e CSS do Zero - Parte 1",
+            "subtitulo": "Curso de Frontend",
+            "dataPublicacao": "2018-11-16 17:30:50",
+            "dataAtualizacao": "2018-11-16 17:38:18",
+            "conteudo": "Conteúdo Atualizado",
+            "autores": [
+                {
+                    "idAutor": 3,
+                    "nome": "Warren",
+                    "sobrenome": "Banks",
+                    "bio": "Bio Qualquer"
+                }
+            ],
+            "comentarios": [
+                {
+                    "idComentario": 6,
+                    "idArtigo": 5,
+                    "usuario": "pedrojr",
+                    "texto": "Texto do comentário",
+                    "data": "2018-11-16 17:45:17"
+                }
+            ]
+        },
+        {
+            "idArtigo": 6,
+            "permalink": "html-e-css-do-zero-parte-2",
+            "titulo": "HTML e CSS do Zero - Parte 2",
+            "subtitulo": "Curso de Frontend",
+            "dataPublicacao": "2018-11-16 17:30:55",
+            "conteudo": "Conteúdo do artigo",
+            "autores": [
+                {
+                    "idAutor": 3,
+                    "nome": "Warren",
+                    "sobrenome": "Banks",
+                    "bio": "Bio Qualquer"
+                }
+            ],
+            "comentarios": [
+                {
+                    "idComentario": 9,
+                    "idArtigo": 6,
+                    "usuario": "lucas758",
+                    "texto": "Texto do comentário",
+                    "data": "2018-11-16 17:46:42"
+                },
+                {
+                    "idComentario": 10,
+                    "idArtigo": 6,
+                    "usuario": "lucas758",
+                    "texto": "Texto do comentário",
+                    "data": "2018-11-16 17:46:45"
+                }
+            ]
+        }
+    ]
+}

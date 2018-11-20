@@ -1,0 +1,43 @@
+{
+    "pagina": 1,
+    "totalPaginas": 2,
+    "next": "http://localhost:8080/comentarios?page=2&size=5",
+    "prev": "",
+    "comentarios": [
+        {
+            "idComentario": 1,
+            "idArtigo": 3,
+            "usuario": "joaozinho123",
+            "texto": "Texto do comentário",
+            "data": "2018-11-16 17:44:02"
+        },
+        {
+            "idComentario": 2,
+            "idArtigo": 7,
+            "usuario": "joaozinho123",
+            "texto": "Texto do comentário",
+            "data": "2018-11-16 17:44:19"
+        },
+        {
+            "idComentario": 3,
+            "idArtigo": 9,
+            "usuario": "joaozinho123",
+            "texto": "Texto do comentário",
+            "data": "2018-11-16 17:44:30"
+        },
+        {
+            "idComentario": 4,
+            "idArtigo": 9,
+            "usuario": "alice_s2",
+            "texto": "Texto do comentário",
+            "data": "2018-11-16 17:44:44"
+        },
+        {
+            "idComentario": 5,
+            "idArtigo": 9,
+            "usuario": "alice_s2",
+            "texto": "Texto do comentário",
+            "data": "2018-11-16 17:44:47"
+        }
+    ]
+}

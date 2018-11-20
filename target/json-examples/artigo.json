@@ -1,0 +1,25 @@
+{
+    "idArtigo": 2,
+    "permalink": "programacao-em-java-parte-1",
+    "titulo": "Programação em Java - Parte 1",
+    "subtitulo": "Curso de Java",
+    "dataPublicacao": "2018-11-16 17:28:09",
+    "conteudo": "Conteúdo do artigo",
+    "autores": [
+        {
+            "idAutor": 1,
+            "nome": "Victor",
+            "sobrenome": "Corrêa",
+            "bio": "Bio Qualquer"
+        }
+    ],
+    "comentarios": [
+        {
+            "idComentario": 7,
+            "idArtigo": 2,
+            "usuario": "pedrojr",
+            "texto": "Texto do comentário",
+            "data": "2018-11-16 17:45:31"
+        }
+    ]
+}

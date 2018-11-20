@@ -1,0 +1,38 @@
+{
+    "pagina": 1,
+    "totalPaginas": 3,
+    "next": "http://localhost:8080/autores?page=2&size=5",
+    "prev": "",
+    "autores": [
+        {
+            "idAutor": 1,
+            "nome": "Victor",
+            "sobrenome": "Corrêa",
+            "bio": "Bio Qualquer"
+        },
+        {
+            "idAutor": 2,
+            "nome": "Ariana",
+            "sobrenome": "Golden",
+            "bio": "Bio Qualquer"
+        },
+        {
+            "idAutor": 3,
+            "nome": "Warren",
+            "sobrenome": "Banks",
+            "bio": "Bio Qualquer"
+        },
+        {
+            "idAutor": 4,
+            "nome": "Saul",
+            "sobrenome": "Stokes",
+            "bio": "Bio Qualquer"
+        },
+        {
+            "idAutor": 5,
+            "nome": "Marni",
+            "sobrenome": "Wiley",
+            "bio": "Bio Qualquer"
+        }
+    ]
+}
