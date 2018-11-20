@@ -1,5 +1,6 @@
 
 
+
 # API Webedia Backend Challenge
 
 Este projeto é um desafio de programação Back-end dado pela empresa Webedia.
@@ -19,9 +20,9 @@ Esses arquivos podem ser encontrados também dentro da pasta /target.
 
 Com tudo devidamente extraído, o programa pode ser executado.
 # Uso
-#### 1. Servidor
+## 1. Servidor
 Ao executar o arquivo JAR, uma interface contendo dois botões irá aparecer. Ao pressionar o botão "Start Server", um servidor local será levantado no endereço http://localhost:8080/, a partir daí será possível executar os HTTP Requests, através do curl, do navegador ou de programas como POSTMAN.
-#### 2. JSON
+## 2. JSON
 A API consome e produz arquivos do tipo JSON. Dentro da pasta /target/json-examples contém arquivos json com os formatos necessários para a API funcionar.
 ## 3. Artigos
 Classe que simula um artigo de blog. Contém os seguintes atributos:
@@ -87,7 +88,6 @@ Opção 2 - Selecionando pelo ID:
     curl --request DELETE --url 'http://localhost:8080/artigos?id=1'
 
 Basta utilizar uma das duas opções de URL, que o arquivo será deletado.
-#
 ## 4. Autores
 Classe que simula um autor de artigos. Contém os seguintes atributos:
 * ID ( Gerado pelo banco de dados )
@@ -135,7 +135,6 @@ Requisição do tipo DELETE, que apaga um autor no banco de dados.
     curl --request DELETE --url http://localhost:8080/autores/{id}
 Para deletar, é utilizado o id do autor.
 
-#
 ## 5. Comentários
 Classe que simula o comentário de artigos. Contém os seguintes atributos:
 * ID ( Gerado pelo banco de dados )
